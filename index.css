@@ -1,0 +1,25 @@
+.mybody {
+    width: 800px;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgb(209, 252, 141);
+}
+.flex_container_row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.flex_container_column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+.notVisible {
+    visibility: hidden;
+}
+.ul_parent {
+    margin: 10px 10px 10px 0;
+}
+#parent {
+    margin-top: 10px;
+}

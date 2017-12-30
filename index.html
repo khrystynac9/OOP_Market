@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+        <link rel = "stylesheet" href = "index.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    </head>
+    <body class = "mybody">
+        <div class = "flex_container_row">
+            <div id = "parent">
+                <select id = "myselect" class = "custom-select mb-2 mr-sm-2 mb-sm-0">
+                    <option value = "" default>Select the item </option>
+                </select>
+            </div>
+            <div class = "flex_container_column notVisible">
+                <select class="custom-select mb-2 mr-sm-2 mb-sm-0" id="portion">
+                    <option default>How many portion would you like</option>
+                    <option value="1">One portion</option>
+                    <option value="2">Two portions</option>
+                    <option value="3">Three portions</option>
+                </select>
+            
+            <div class = "ul_parent"></div>
+            <div id = "buttonParent"></div>
+        </div>
+       </div>
+
+       <!-- Modal -->
+        <div class="modal fade" id="myBIllModal" tabindex="-1" role="dialog" aria-labelledby="billModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="billModalLabel">Your bill</h5>
+                </div>
+                <div class="modal-body">
+                
+                </div>
+                <div class="modal-footer">
+                <button id = "myRemove" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <script type = "text/javascript" src = "bundle.js"></script>
+        <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    </body>
+</html>
