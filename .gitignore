@@ -1,4 +1,4 @@
 # автозгенерований файли
 node_modules
-bundle.js
+#bundle.js
 package-lock.json
