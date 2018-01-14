@@ -1,10 +1,11 @@
 {
-  "name": "OOP_Market",
+  "name": "oop_market",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:prod": "webpack --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/khrystynac9/OOP_Market#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "webpack": "^3.10.0"
-  }
+  },
+  "devDependencies": {}
 }
